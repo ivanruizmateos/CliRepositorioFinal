@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="760.0" prefWidth="1032.0" style="-fx-background-image: url(https://media.istockphoto.com/id/165812595/es/vector/ahorcado-pizarra-de-tiza.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=deoMs_tQALUU1chLxVO8V-we8RB3qmEwNQmljBhNm5M=); -fx-background-repeat: no-repeat; -fx-background-position: center; -fx-background-size: contain;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dam2.exercici2.HelpController">
+   <children>
+      <Text fill="WHITE" layoutX="121.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AHORCADO" wrappingWidth="386.6708984375">
+         <font>
+            <Font name="Sylfaen" size="64.0" />
+         </font>
+      </Text>
+      <Button fx:id="btn_cancelar" layoutX="769.0" layoutY="304.0" mnemonicParsing="false" onAction="#switchToDificultad" prefHeight="31.0" prefWidth="174.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="Volver" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="24.0" />
+         </font>
+      </Button>
+      <Text fx:id="palabra" fill="WHITE" layoutX="133.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="368.0">
+         <font>
+            <Font name="Segoe UI Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="586.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reglas del juego" wrappingWidth="220.56640625">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="53.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hay tres modos de dificultad:" wrappingWidth="386.6708984375" />
+      <Text fill="WHITE" layoutX="92.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Facil: Son palabras muy sencillas, muy típicas y faciles de adivinar tienen un maximo de 6 carácteres aproximadamente." wrappingWidth="360.6708984375" />
+      <Text fill="WHITE" layoutX="92.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Media: Palabras algo mas complejas pero también son bastante usadas. Contienen entre 5 y 8 caracteres aproximadamente" wrappingWidth="368.0" />
+      <Text fill="WHITE" layoutX="92.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Difícil: Palabras no muy conocidas y largas, contienen hasta 14 carácteres aproximadamente." wrappingWidth="360.6708984375" />
+      <Text fill="WHITE" layoutX="92.0" layoutY="427.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cuentas con 6 vidas al inicio de la partida y con cada palabra que aciertes no se resetea." wrappingWidth="368.0" />
+      <Text fill="WHITE" layoutX="92.0" layoutY="477.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Por cada letra acertada ganas 100 puntos y por cada palabra 500, a ver cuantos puntos consigues ganar, son acumulativos entre partidas." wrappingWidth="351.92041015625" />
+   </children>
+</AnchorPane>

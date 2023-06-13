@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="760.0" prefWidth="1032.0" style="-fx-background-image: url(https://media.istockphoto.com/id/165812595/es/vector/ahorcado-pizarra-de-tiza.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=deoMs_tQALUU1chLxVO8V-we8RB3qmEwNQmljBhNm5M=); -fx-background-repeat: no-repeat; -fx-background-position: center; -fx-background-size: contain;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dam2.exercici2.CrearCuentaController">
+   <children>
+      <VBox layoutX="-37.0" layoutY="319.0" prefHeight="193.0" prefWidth="610.0" spacing="10.0" style="-fx-background-color: transparent;">
+         <children>
+            <Label text="Correo electrónico" textFill="#fcfcfc">
+               <font>
+                  <Font name="Segoe UI" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="emailT" style="-fx-background-color: transparent; -fx-border-color: white; -fx-text-fill: white;" />
+            <Label prefHeight="21.0" prefWidth="108.0" style="-fx-background-color: transparent;" />
+            <Label prefHeight="23.0" prefWidth="51.0" text="Nick" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="nickT" style="-fx-background-color: transparent; -fx-border-color: white; -fx-text-fill: white;" />
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="100.0" right="100.0" top="10.0" />
+         </padding>
+      </VBox>
+      <Button fx:id="btn_cancelar" layoutX="765.0" layoutY="375.0" onAction="#switchToLogin" prefHeight="31.0" prefWidth="174.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="Cancelar" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_crear" layoutX="765.0" layoutY="286.0" mnemonicParsing="false" onAction="#switchToLogin" prefHeight="31.0" prefWidth="174.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="Crear cuenta" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="24.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="92.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AHORCADO" wrappingWidth="386.6708984375">
+         <font>
+            <Font name="Sylfaen" size="64.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

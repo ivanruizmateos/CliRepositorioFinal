@@ -1,0 +1,33 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 11 jun 2023, 14:07:11
+    Author     : ivanr
+*/
+.table-row-cell {
+    -fx-background-color: transparent; /* Hace el fondo de la fila transparente */
+    -fx-border-color: white; /* Color del borde de la fila */
+    -fx-text-fill: white; /* Color del texto */
+}
+
+.table-view {
+    -fx-background-color: transparent; /* Hace el fondo de la tabla transparente */
+    -fx-border-color: white; /* Color del borde de la tabla */
+}
+
+.table-column-cell {
+    -fx-background-color: transparent; /* Hace el fondo de la columna transparente */
+    -fx-border-color: white; /* Color del borde de la columna */
+    -fx-text-fill: white; /* Color del texto */
+}
+
+.table-cell {
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}

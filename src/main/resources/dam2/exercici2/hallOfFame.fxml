@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="760.0" prefWidth="1032.0" style="-fx-background-image: url(https://media.istockphoto.com/id/165812595/es/vector/ahorcado-pizarra-de-tiza.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=deoMs_tQALUU1chLxVO8V-we8RB3qmEwNQmljBhNm5M=); -fx-background-repeat: no-repeat; -fx-background-position: center; -fx-background-size: contain;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dam2.exercici2.HallOfFameController">
+   <children>
+      <VBox layoutY="174.0" prefHeight="366.0" prefWidth="631.0" spacing="10.0" style="-fx-background-color: transparent;">
+         <children>
+            <Label prefHeight="21.0" prefWidth="108.0" style="-fx-background-color: transparent;" />
+            <TableView fx:id="HallOfFame" prefHeight="283.0" prefWidth="431.0" style="-fx-border-color: white; -fx-background-color: transparent;">
+              <columns>
+                <TableColumn fx:id="jugador" prefWidth="244.0" text="Nombre" />
+                  <TableColumn fx:id="puntuacion" prefWidth="182.0" text="Puntuacion" />
+              </columns>
+            </TableView>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="100.0" right="100.0" top="10.0" />
+         </padding>
+      </VBox>
+      <Text fill="WHITE" layoutX="138.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AHORCADO" wrappingWidth="386.6708984375">
+         <font>
+            <Font name="Sylfaen" size="64.0" />
+         </font>
+      </Text>
+      <Button fx:id="btn_cancelar" layoutX="762.0" layoutY="333.0" mnemonicParsing="false" onAction="#switchToDificultad" prefHeight="31.0" prefWidth="174.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="Cancelar" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

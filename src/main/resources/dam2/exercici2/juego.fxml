@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="760.0" prefWidth="1032.0" style="-fx-background-image: url(https://media.istockphoto.com/id/165812595/es/vector/ahorcado-pizarra-de-tiza.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=deoMs_tQALUU1chLxVO8V-we8RB3qmEwNQmljBhNm5M=); -fx-background-repeat: no-repeat; -fx-background-position: center; -fx-background-size: contain;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dam2.exercici2.JuegoController">
+   <children>
+      <Text fill="WHITE" layoutX="121.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AHORCADO" wrappingWidth="386.6708984375">
+         <font>
+            <Font name="Sylfaen" size="64.0" />
+         </font>
+      </Text>
+      <FlowPane layoutX="167.0" layoutY="434.0" prefHeight="90.0" prefWidth="326.0">
+         <children>
+            <Button fx:id="btn_q" mnemonicParsing="false" onAction="#handleButtonClick" onMouseClicked="#setLetter" style="-fx-background-color: transparent; -fx-border-color: white;" text="Q" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_w" mnemonicParsing="false" onAction="#handleButtonClick" style="-fx-background-color: transparent; -fx-border-color: white;" text="W" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_e" mnemonicParsing="false" onAction="#handleButtonClick" style="-fx-background-color: transparent; -fx-border-color: white;" text="E" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_r" mnemonicParsing="false" onAction="#handleButtonClick" style="-fx-background-color: transparent; -fx-border-color: white;" text="R" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_t" mnemonicParsing="false" onAction="#handleButtonClick" style="-fx-background-color: transparent; -fx-border-color: white;" text="T" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_y" mnemonicParsing="false" onAction="#handleButtonClick" style="-fx-background-color: transparent; -fx-border-color: white;" text="Y" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_u" mnemonicParsing="false" onAction="#handleButtonClick" style="-fx-background-color: transparent; -fx-border-color: white;" text="U" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_i" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="I" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_o" mnemonicParsing="false" onAction="#handleButtonClick" style="-fx-background-color: transparent; -fx-border-color: white;" text="O" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_p" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="30.0" prefWidth="29.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="P" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_a" mnemonicParsing="false" onAction="#handleButtonClick" style="-fx-background-color: transparent; -fx-border-color: white;" text="A" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_s" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="30.0" prefWidth="24.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="S" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_d" mnemonicParsing="false" onAction="#handleButtonClick" style="-fx-background-color: transparent; -fx-border-color: white;" text="D" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_f" mnemonicParsing="false" onAction="#handleButtonClick" style="-fx-background-color: transparent; -fx-border-color: white;" text="F" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_g" mnemonicParsing="false" onAction="#handleButtonClick" style="-fx-background-color: transparent; -fx-border-color: white;" text="G" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_h" mnemonicParsing="false" onAction="#handleButtonClick" style="-fx-background-color: transparent; -fx-border-color: white;" text="H" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnj" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="J" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_k" mnemonicParsing="false" onAction="#handleButtonClick" style="-fx-background-color: transparent; -fx-border-color: white;" text="K" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_l" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="30.0" prefWidth="33.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="L" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_ñ" mnemonicParsing="false" onAction="#handleButtonClick" style="-fx-background-color: transparent; -fx-border-color: white;" text="Ñ" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_z" mnemonicParsing="false" onAction="#handleButtonClick" style="-fx-background-color: transparent; -fx-border-color: white;" text="Z" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_x" mnemonicParsing="false" onAction="#handleButtonClick" style="-fx-background-color: transparent; -fx-border-color: white;" text="X" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_c" mnemonicParsing="false" onAction="#handleButtonClick" style="-fx-background-color: transparent; -fx-border-color: white;" text="C" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_v" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="30.0" prefWidth="22.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="V" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_b" mnemonicParsing="false" onAction="#handleButtonClick" style="-fx-background-color: transparent; -fx-border-color: white;" text="B" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_n" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="30.0" prefWidth="34.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="N" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_m" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="M" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </FlowPane>
+      <Text fx:id="palabra" fill="WHITE" layoutX="133.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="368.0">
+         <font>
+            <Font name="Segoe UI Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="timer" fill="WHITE" layoutX="801.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="128.6708984375">
+         <font>
+            <Font name="Segoe UI Bold" size="48.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="imagen" fitHeight="171.0" fitWidth="138.0" layoutX="248.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
